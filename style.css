@@ -1,0 +1,29 @@
+/*Importar fontes externas*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Montserrat);
+
+/*Aplicando as configurações de fontes externas*/
+*{
+    font-family: 'Open Sans', sans-serif !important;    
+    color: #FFF;
+}
+
+/*Imagen de fundo background*/
+body {
+    background-image: url('bkg2.jpg');
+    background-size: 100%;
+
+}
+/*Rodapé*/
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;  
+    text-align: right;
+}
+
+/*Cabeçalho da tabela*/
+#tblList thead{
+    background: gray;
+    color: #FFF;
+}
